@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FPTURoomBooking.Repositories.Repositories
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
+        IRepository<T> Repository<T>() where T : class;
+        Task<int> SaveChangesAsync();
+        int SaveChanges();
     }
 }
