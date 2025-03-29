@@ -1,3 +1,8 @@
+using FPTURoomBooking.Repositories.Data;
+using FPTURoomBooking.Repositories.Repositories;
+using FPTURoomBooking.Services.Interfaces;
+using FPTURoomBooking.Services.Services;
+
 namespace FPTURoomBooking.Admin
 {
     public class Program
@@ -8,9 +13,10 @@ namespace FPTURoomBooking.Admin
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddDbContext<FpturoomBookingContext>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IUserService, UserService>();
             var app = builder.Build();
-
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {

@@ -1,3 +1,8 @@
+using FPTURoomBooking.Repositories.Data;
+using FPTURoomBooking.Repositories.Repositories;
+using FPTURoomBooking.Services.Interfaces;
+using FPTURoomBooking.Services.Services;
+
 namespace FPTURoomBooking.Client
 {
     public class Program
@@ -5,6 +10,9 @@ namespace FPTURoomBooking.Client
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<FpturoomBookingContext>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
             // Add services to the container.
             builder.Services.AddRazorPages();
