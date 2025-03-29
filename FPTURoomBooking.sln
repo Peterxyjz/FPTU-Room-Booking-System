@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPTURoomBooking.Repositories", "FPTURoomBooking.Repositories\FPTURoomBooking.Repositories.csproj", "{583DC610-B393-4826-9357-0459D863AE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPTURoomBooking.Services", "FPTURoomBooking.Services\FPTURoomBooking.Services.csproj", "{72E7FFA8-5B30-4BA7-9113-31E5660BFDF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPTURoomBooking.Admin", "FPTURoomBooking.Admin\FPTURoomBooking.Admin.csproj", "{BB7E449C-1F9E-455F-9E72-464C57C8B26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPTURoomBooking.Client", "FPTURoomBooking.Client\FPTURoomBooking.Client.csproj", "{62F44447-F7C2-4C7E-AF30-68963682B721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{583DC610-B393-4826-9357-0459D863AE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583DC610-B393-4826-9357-0459D863AE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583DC610-B393-4826-9357-0459D863AE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583DC610-B393-4826-9357-0459D863AE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E7FFA8-5B30-4BA7-9113-31E5660BFDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E7FFA8-5B30-4BA7-9113-31E5660BFDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E7FFA8-5B30-4BA7-9113-31E5660BFDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E7FFA8-5B30-4BA7-9113-31E5660BFDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7E449C-1F9E-455F-9E72-464C57C8B26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7E449C-1F9E-455F-9E72-464C57C8B26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7E449C-1F9E-455F-9E72-464C57C8B26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7E449C-1F9E-455F-9E72-464C57C8B26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F44447-F7C2-4C7E-AF30-68963682B721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F44447-F7C2-4C7E-AF30-68963682B721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F44447-F7C2-4C7E-AF30-68963682B721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F44447-F7C2-4C7E-AF30-68963682B721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
